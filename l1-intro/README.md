@@ -1,6 +1,7 @@
 # C++ Intro
 
-*README: For better reading, use `ctrl+Shift+v`.
+*README: For better reading, use `ctrl+Shift+v` OR browse in GitHub Web.
+
 *COMMAND:
 To compile a cpp file without any class files, run(excluding `<>` symbol!)
 `g++ -Wall -Werror -std=c++14 -O -o <exe_name> <filename>.cpp`
