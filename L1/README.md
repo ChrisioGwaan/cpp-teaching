@@ -1,8 +1,8 @@
 # C++ Intro
 
-*README: For better reading, use `ctrl+Shift+v` OR browse in GitHub Web.
+* README: For better reading, use `ctrl+Shift+v` OR browse in GitHub Web.
 
-*COMMAND:
+* COMMAND:
 To compile a cpp file without any class files, run(excluding `<>` symbol!)
 `g++ -Wall -Werror -std=c++14 -O -o <exe_name> <filename>.cpp`
 
@@ -27,13 +27,15 @@ Storage Size:
 * double: Requires 8 bytes of memory to store the value.
 
 > `String` and `char`
+
 **A string is made up of multiple characters.**
 `\n`, `\t`, ` `, are considered to be characters as well.
 
 `\0` null-terminator character, in the end of every string.
 
 
-> Useful webs
+> ASCII Table
+
 [ASCII](https://www.ascii-code.com/)
 
 ## Classes
