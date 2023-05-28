@@ -16,7 +16,17 @@ Hint:
 
 /*
 -Ex: If the input is:
-2 3 4 8 11 -1
+Input a number (negative num to stop): 2
+
+Input a number (negative num to stop): 3
+
+Input a number (negative num to stop): 4
+
+Input a number (negative num to stop): 8
+
+Input a number (negative num to stop): 11
+
+Input a number (negative num to stop): -1
 
 -The output is:
 Middle item: 4
