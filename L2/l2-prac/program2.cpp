@@ -5,8 +5,7 @@
 Q2: Given a list of integers, write a function to sort the list (in ascending order), then output the middle integer. 
     A negative number indicates the end of the input (the negative number is not a part of the sorted list). 
 
-Constrains:
-1) The maximum number of inputs for any test case should not exceed 9. If exceeded, output "Too many numbers".
+NO CONSTRAINS
 
 Hint: 
 1) First read the data into an array. 

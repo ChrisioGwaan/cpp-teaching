@@ -16,15 +16,17 @@ Hint:
 
 /*
 -Ex: If the input is:
-Input a number (negative num to stop): 2
+Input a number (negative num to stop): 11
 
 Input a number (negative num to stop): 3
 
-Input a number (negative num to stop): 4
-
 Input a number (negative num to stop): 8
 
-Input a number (negative num to stop): 11
+Input a number (negative num to stop): 4
+
+Input a number (negative num to stop): 2
+
+Input a number (negative num to stop): 7
 
 Input a number (negative num to stop): -1
 
@@ -33,4 +35,25 @@ Middle item: 4
 */
 
 // Write your solution below
+#include <iostream>
+#include <vector>
 
+int main(void) {
+    std::vector<int> vector1;
+
+    int val = 0;
+
+    std::cout << "Input a number (negative num to stop): ";
+    std::cin >> val;
+
+    while (val >= 0) {
+        vector1.push_back(val);
+        std::cout << "Input a number (negative num to stop): ";
+        std::cin >> val;
+    }
+    
+    std::cout << vector1.at((int)vector1.size() / 2) << std::endl;
+
+
+    return EXIT_SUCCESS;
+}
