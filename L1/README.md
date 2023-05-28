@@ -42,12 +42,34 @@ Storage Size:
 * CLICK ==>> [ASCII](https://www.ascii-code.com/)
 
 ## <span style="color: #A9C399;">**Classes**</span>
+
+> <span style="color: orange;">**Specifier**</span>
+
 | Specifier    | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
 | private      | Accessible by self.                                                         |
 | protected    | Accessible by self, derived classes, and other classes in the same package. |
 | public       | Accessible by self, derived classes, and everyone else.                     |
 | no specifier | Accessible by self and other classes in the same package.                   |
+
+> <span style="color: orange;">**Preprocessor**</span>
+* The pre-processor first runs and evaluates all ‘#’ statements
+
+1. `#include` - import header file
+2. `#define` - define a new constant
+3. `#ifdef` - check if a definition exists
+4. `#ifndef` - check if a definition does not exist
+5. `#endif` - Close a #if check
+
+Typical pattern for a header file:
+```
+#ifndef TERM_FOR_HEADER_FILE
+#define TERM_FOR_HEADER_FILE
+
+/* Header file implementation */
+
+#endif // TERM_FOR_HEADER_FILE
+```
 
 ## <span style="color: #A9C399;">**Pointers & References**</span>
 
