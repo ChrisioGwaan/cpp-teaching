@@ -35,25 +35,3 @@ Middle item: 4
 */
 
 // Write your solution below
-#include <iostream>
-#include <vector>
-
-int main(void) {
-    std::vector<int> vector1;
-
-    int val = 0;
-
-    std::cout << "Input a number (negative num to stop): ";
-    std::cin >> val;
-
-    while (val >= 0) {
-        vector1.push_back(val);
-        std::cout << "Input a number (negative num to stop): ";
-        std::cin >> val;
-    }
-    
-    std::cout << vector1.at((int)vector1.size() / 2) << std::endl;
-
-
-    return EXIT_SUCCESS;
-}
