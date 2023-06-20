@@ -34,6 +34,18 @@ LinkedList      Node            Node
 
 * TBA, last week topic.
 
+```
+
+list
+head: ---> data: 29      data: 35
+           next:    ---> next     ---> null
+ null <--- :prev    <--- :prev
+
+                          ^
+tail: --------------------|
+
+```
+
 ## <span style="color: #A9C399;">**Template**</span>
 
 > <span style="color: orange;">**Description**</span>
