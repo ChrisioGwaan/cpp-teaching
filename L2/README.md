@@ -44,6 +44,19 @@ int* ptr        int value <----------- int& ref
     * ------------> nullptr
 ```
 
+> <span style="color: orange;">**Pointers: Addressing**</span>
+
+* The place that a pointer “points to” must have been previously allocated
+
+```
+int value = 7;
+int* ptr = &value;
+
+// int* ptr ----> int value
+```
+
+* If a pointer does not have an appropriate variable to point to, the value is set to 0x00000000. That is, nullptr
+
 ## <span style="color: #A9C399;">**Vector**</span>
 
 * C++ Provides STL containers for a number the data structures, vector is one of them.
