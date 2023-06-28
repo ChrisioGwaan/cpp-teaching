@@ -12,9 +12,9 @@ int main(void) {
     int** ttr = &qtr;
 
     ttr = rtr;
- 
+
     // Make x & y equal using ttr & rtr
-    ?? = ??
+    **ttr = **rtr;
 
     std::cout << x << std::endl;
     std::cout << y << std::endl;
