@@ -7,6 +7,7 @@
 If you find any content that are ambiguous or incorrect, feel free to do the following options:
 
 * Open issues or
+* Post your questions on Discussions
 * Contact me with [Email](chris322322@gmail.com)
 
 ## Compiler Installation (Windows)
