@@ -18,6 +18,10 @@
 
 ## <span style="color: #A9C399;">**C++ Syntax and String**</span>
 
+> <span style="color: orange;">***Before using string in C++***</span>
+
+Good practice is to use `#include <string>` when everytime you use strings.
+
 > <span style="color: orange;">***float*** **and** ***double***</span>
  
 Precision:
@@ -128,5 +132,3 @@ int arr1[5] = {1, 2, 3, 4, 5};
 
 std::cout << arr1.end() << std::endl; // It will return an iterator to the element next to 5, > 0 [some garbage value]
 ```
-
-
