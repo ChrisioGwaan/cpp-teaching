@@ -16,11 +16,7 @@
 
 `g++ -Wall -Werror -std=c++14 -O -o p-06-class User.cpp p-06-class.cpp`
 
-## <span style="color: #A9C399;">**C++ Syntax and String**</span>
-
-> <span style="color: orange;">***Before using string in C++***</span>
-
-Good practice is to use `#include <string>` when everytime you use strings.
+## <span style="color: #A9C399;">**C++ Variables**</span>
 
 > <span style="color: orange;">***float*** **and** ***double***</span>
  
@@ -36,7 +32,10 @@ Storage Size:
 
 > <span style="color: orange;">***string*** **and** ***char***</span>
 
+**GOOD PRACTICE** is to use `#include <string>` when everytime you use strings.
+
 **A string is made up of multiple characters.**
+
 `\n`, `\t`, ` `, are considered to be characters as well.
 
 `\0` null-terminator character, in the end of every string.
@@ -44,36 +43,6 @@ Storage Size:
 > <span style="color: orange;">**ASCII Table**</span>
 
 * CLICK ==>> [ASCII](https://www.ascii-code.com/)
-
-## <span style="color: #A9C399;">**Classes**</span>
-
-> <span style="color: orange;">**Specifier**</span>
-
-| Specifier    | Description                                                                 |
-|--------------|-----------------------------------------------------------------------------|
-| private      | Accessible by self.                                                         |
-| protected    | Accessible by self, derived classes, and other classes in the same package. |
-| public       | Accessible by self, derived classes, and everyone else.                     |
-| no specifier | Accessible by self and other classes in the same package.                   |
-
-> <span style="color: orange;">**Preprocessor**</span>
-* The pre-processor first runs and evaluates all ‘#’ statements
-
-1. `#include` - import header file
-2. `#define` - define a new constant
-3. `#ifdef` - check if a definition exists
-4. `#ifndef` - check if a definition does not exist
-5. `#endif` - Close a #if check
-
-Typical pattern for a header file:
-```
-#ifndef TERM_FOR_HEADER_FILE
-#define TERM_FOR_HEADER_FILE
-
-/* Header file implementation */
-
-#endif // TERM_FOR_HEADER_FILE
-```
 
 ## <span style="color: #A9C399;">**Pointers & References**</span>
 
@@ -101,7 +70,7 @@ The variable is created, but it does not yet refer to any memory or have any spe
 
 > <span style="color: orange;">**Initialization**</span>
 
-* There are two ways to initialize an array in GOOD PRACTICE:
+* There are two ways to initialize an array in **GOOD PRACTICE**:
 ```
 // (1)
 std::string arr1[10];
@@ -127,6 +96,7 @@ To avoid getting bytes for the result, you can let 20 divided by the type in byt
 * To return the first element in an array, use <span style="color: yellow;">begin()</span> operator.
 
 * On the other hand, there is an <span style="color: yellow;">end()</span> operator. It will return an iterator pointing to the _past-the-end_ element in an array container.
+
 ```
 int arr1[5] = {1, 2, 3, 4, 5};
 
