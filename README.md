@@ -7,6 +7,7 @@
 If you find any content that are ambiguous or incorrect, feel free to do the following options:
 
 * Open issues or
+* Post your questions on Discussions
 * Contact me with [Email](chris322322@gmail.com)
 
 ## Compiler Installation (Windows)
@@ -17,12 +18,19 @@ If you find any content that are ambiguous or incorrect, feel free to do the fol
 
 > Tools to be installed in Mingw-x64
 
-1. Install the mingw-w64 GCC by running the following command on MSYS2: \
-`pacman -S mingw-w64-ucrt-x86_64-gcc`
-2. Install full Mingw-w64 toolchain: \
-`pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
-3. Check gcc and gdb version on Command Prompt: \
-`gcc --version` and `gdb --version`
+1. Install the mingw-w64 GCC by running the following command on MSYS2:
+```
+pacman -S mingw-w64-ucrt-x86_64-gcc
+```
+3. Install full Mingw-w64 toolchain:
+```
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+```
+5. Check gcc and gdb version on Command Prompt:
+```
+gcc --version
+gdb --version
+```
 
 > Path Environment Setup
 
@@ -45,25 +53,34 @@ If you find any content that are ambiguous or incorrect, feel free to do the fol
 
 > Install Ubuntu - Windows Subsystem for Linux
 
-* Open Command Prompt in Administrator mode, and run the following command: \
-`wsl --install`
+* Open Command Prompt in Administrator mode, and run the following command:
+```
+wsl --install
+```
 * The system will require a restart and it's normal
 * After the restart, the Ubuntu terminal will pop up and ask you to setup a password. Due to a Linux security mechanism, you can't see your password as you type. So, keep your password in mind.
 
 > Sudo Update
 
-* Run the following command to perform an update: \
-`sudo apt-get update && sudo apt-get dist-upgrade`
+* Run the following command to perform an update:
+```
+sudo apt-get update && sudo apt-get dist-upgrade
+```
 
 > Install GNU Compiler and GDB Debugger
 
-* Run the following command to perform the install: \
-`sudo apt-get install build-essential gdb`
+* Run the following command to perform the install:
+```
+sudo apt-get install build-essential gdb
+```
 
 > Version Check
 
-* Run the following command to check the version: \
-`whereis g++` and `whereis gdb`
+* Run the following command to check the version:
+```
+whereis g++
+whereis gdb
+```
 
 > Use WSL in VS Code
 
