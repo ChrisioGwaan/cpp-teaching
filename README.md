@@ -8,7 +8,7 @@ If you find any content that are ambiguous or incorrect, feel free to do the fol
 
 * Open issues or
 * Post your questions on Discussions
-* Contact me with [Email](chris322322@gmail.com)
+* [Email Me](chrisiogwaan@gmail.com)
 
 ## Compiler Installation (Windows)
 
@@ -19,14 +19,13 @@ If you find any content that are ambiguous or incorrect, feel free to do the fol
 > Tools to be installed in Mingw-x64
 
 1. Install the mingw-w64 GCC by running the following command on MSYS2:
+
 ```
 pacman -S mingw-w64-ucrt-x86_64-gcc
 ```
-3. Install full Mingw-w64 toolchain:
-```
-pacman -S --needed base-devel mingw-w64-x86_64-toolchain
-```
-5. Check gcc and gdb version on Command Prompt:
+
+2. Check gcc and gdb version on Command Prompt:
+
 ```
 gcc --version
 gdb --version
