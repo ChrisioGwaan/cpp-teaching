@@ -1,8 +1,6 @@
 # C++ Programming Techniques
 
-*This is a public repository for people who want to learn C++ on their own. Hope my repository will be helpful to you on your C++ journey. Good Luck!*
-
-*We use C++14 in this repo.*
+* Support *C++14*
 
 If you find any content that are ambiguous or incorrect, feel free to do the following options:
 
@@ -39,10 +37,6 @@ gdb --version
 4. Find `msys64\mingw64\bin` in your C Drive, and copy the path `C:\msys64\mingw64\bin`
 5. Back to `Path` variable session, select `New` and paste the path
 6. Remember to click `OK OK OK`
-
-> More information
-
-* You can check this [link](https://code.visualstudio.com/docs/languages/cpp) out for learning more details
 
 ## WSL in VS code with C++
 
@@ -84,7 +78,3 @@ whereis gdb
 > Use WSL in VS Code
 
 * Press **CTRL+`** to open a terminal, select the down arrow to the right of + icon, you should see Ubuntu(WSL) option there. DONE!
-
-> More information
-
-* You can check this [link](https://code.visualstudio.com/docs/cpp/config-wsl) out for learning more details
