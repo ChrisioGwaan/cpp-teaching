@@ -6,3 +6,7 @@
 
 # Ignore all exe files from all folders
 **/*.exe
+
+# Ignore all binary and build files from all folders
+**/bin/
+**/obj/
