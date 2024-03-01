@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "bst.h"
+#include "BST.h"
 
 BST::BST() {
     root = nullptr;
