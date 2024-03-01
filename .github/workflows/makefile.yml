@@ -1,11 +1,11 @@
 name: Makefile CI
 
 on:
-  # push:
-  #   branches: [ "feature" ]
-  # pull_request:
-  #   branches: [ "feature" ]
-  workflow_dispatch:
+  push:
+    branches: [ "feature" ]
+  pull_request:
+    branches: [ "feature" ]
+  # workflow_dispatch:
 
 jobs:
   CPP01-BUILD:
