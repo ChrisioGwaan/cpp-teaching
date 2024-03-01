@@ -1,0 +1,48 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "feature" ]
+  pull_request:
+    branches: [ "feature" ]
+
+jobs:
+  CPP01-BUILD:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build CPP01
+      run: make -C CPP01/lab -f Makefile
+
+  CPP02-BUILD:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build CPP02
+      run: make -C CPP02/lab -f Makefile
+
+  CPP03-BUILD:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build CPP03
+      run: make -C CPP03/lab -f Makefile
+
+  CPP04-BUILD:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build CPP04
+      run: make -C CPP04/lab -f Makefile
+
+  CPP05-BUILD:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build CPP05
+      run: make -C CPP05/lab -f Makefile
